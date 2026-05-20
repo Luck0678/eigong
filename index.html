@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oculto1</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O Jogo Nunca Acaba</title>
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      color: #fff;
+    }
+
+    body {
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .title .line1 {
+      display: block;
+      font-size: 5.8rem;
+    }
+
+    .title .line2 {
+      display: block;
+      font-size: 5.8rem;
+      margin-top: 0.3em;
+    }
+
+    .poem-wrap {
+      position: absolute;
+      bottom: 24px;
+      left: 85%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .poem {
+      font-size: 0,78rem;
+      line-height: 1.8;
+      color: #000;
+    }
+
+    .poem span {
+      display: block;
+    }
+  </style>
 </head>
-<body>
     <!--
     Hear my plea to the fallen
     Leave me to be with the broken
@@ -26,9 +81,31 @@
     Let us never surrender
     For the Glory and the Fall
     -->
-    <p class="anfitriao">
-        Você acha que acabou? Ingenuo, o jogo nunca acaba!
-    </p> 
-</body>
+<body>
 
+  <h1 class="title">
+    <span class="line1">Você acha que acabou?</span>
+    <span class="line2">Ingênuo, o jogo nunca acaba!</span>
+  </h1>
+
+  <div class="poem-wrap">
+    <p class="poem">
+      <span>Uma CAIXA</span>
+      <span>Nela, o que que você acha?</span>
+      <span>Ouro, joias, tesouros brilhantes</span>
+      <span>Ou apenas teias de aranha errantes</span>
+      <span>Pode ser feliz e pode ser triste</span>
+      <span>Mas abre a caixa, abra</span>
+      <span>Abra-te sésamo, abra kadabra</span>
+      <span>Ela te chama, ela te tenta</span>
+      <span>Não resista, você não aguenta!</span>
+      <span>Vai, ceda, é muito legal!</span>
+      <span>Abra a caixa mero mortal</span>
+      <span>J st knsfq, jz xjruwj jxynaj htr athj,</span>
+      <span>yj tgxjwafsit, gjr ij gfnct it xjz sfwne,</span>
+      <span>rj jshtsywj, j f wjxutxyf yjwf!</span>
+    </p>
+  </div>
+
+</body>
 </html>
